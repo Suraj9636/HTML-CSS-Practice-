@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <style>
+        ol.box {
+             margin: 0;
+             padding: 0;
+             box-sizing: border-box;
+             font-family: sans-serif;
+        }
+        body {
+            background-image: url(wp4055430.jpg);
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+
+        }
+        .box {
+            width: 300px;
+            border-bottom: 20px;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+
+        }
+        .box h1 {
+            color: #fff;
+            padding: 10px 20px;
+            font-size: 20px;
+            font-weight: 700;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        
+        }
+        .box ol {
+            position: relative;
+            
+        }
+        .box ol:hover li {
+            opacity: 0.2;
+        }
+        .box ol li {
+            list-style: none;
+            font-style: bold;
+            font-size: large;
+            padding: 10px;
+            width: 100%;
+            background: #fff;
+            box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+            transition: transform 0.5s;
+
+        }
+        .box ol li:hover {
+            transform: scale(1.1);
+            z-index: 5;
+            box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+            color: #fff;
+            opacity: 1;
+
+        }
+        .box ol li span {
+            width: 20px;
+            height: 20px;
+            text-align: center;
+            line-height: 20px;
+            color: #fff;
+            display: inline-block;
+            border-radius: 50%;
+            margin-right: 10px;
+            font-size: 20px;
+            font-weight: 600;
+            transform: translateY(-2px);
+
+        }
+        .box ol li:hover span {
+            background: #fff;
+            
+        }
+
+       </style>
+    <body>
+        <div class="box">
+            <h1 style="font-style: italic; font-size: 30px;">List of bike brand</h1>
+            <ol>
+
+                <li style="background-color: chartreuse;"><span style="background-color: black;">1</span>Bajaj</li>
+                <li style="background-color: brown;"><span style="background-color: black;">2</span>Hero</li>
+                <li style=" background-color: seagreen;"><span style="background-color: black;">3</span>Honda</li>
+                <li style="background-color: darkorange;"><span style="background-color: black;">4</span>KTM</li>
+                <li style="background-color: darkolivegreen;"><span style="background-color: black;">5</span>Royal Enfield</li>
+                <li style="background-color: teal;"><span style="background-color: black;">6</span>Yamaha</li>
+                <li style="background-color: darkkhaki;"><span style="background-color: black;">7</span>Kawasaki</li>
+                <li style="background-color: darkslategrey;"><span style="background-color: black;">8</span>BMW</li>
+                <li style="background-color: palegreen;"><span style="background-color: black;">9</span>Suzuki</li>
+                <li style="background-color: gold;"><span style="background-color: black;">10</span>TVS</li>
+            </ol>
+
+        </div>
+        </body>
+ </head>   
+</html>
